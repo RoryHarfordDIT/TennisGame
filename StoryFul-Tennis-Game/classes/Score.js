@@ -4,6 +4,7 @@ class Score {
         1: '15',
         2: '30',
         3: '40',
+        4: 'adv'
     };
     
     constructor(){
@@ -12,6 +13,10 @@ class Score {
 
     add() {
         this.score = this.score + 1;
+    }
+     
+    minus() {
+        this.score = this.score - 1;
     }
 
     format() {

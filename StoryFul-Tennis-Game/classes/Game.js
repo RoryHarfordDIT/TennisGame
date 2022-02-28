@@ -8,8 +8,7 @@ class Game {
     addScore(scoreId) {
         this.scoreKeeper.addScore(scoreId);
     }
-    
-  
+
 }
 
 module.exports = Game;
