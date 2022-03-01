@@ -1,8 +1,6 @@
 const Score = require("./Score");
 
 class ScoreKeeper {
-   
-
     constructor(){
         this.score1 = new Score();
         this.score2 = new Score();
@@ -21,9 +19,7 @@ class ScoreKeeper {
         else this.score2.add();
 
         if(this.isGameOver()) console.log('Player '+scoreId+' has won');
-        else this.printScore(scoreId);
-        
-        
+        else this.printScore();
     }
     /** 
      *  @summary printScore - checks if game is Duece if not it prints the current score
