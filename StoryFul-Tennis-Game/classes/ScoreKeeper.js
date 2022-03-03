@@ -44,11 +44,11 @@ class ScoreKeeper {
      *  @author Rory Harford
     */
     isGameOver() {
-        if((this.score1 === 3 && this.score2 !== 3) || this.score1 > 3 && this.score1 > this.score2 + 1) {
+        if(this.score1 > 3 && this.score1 > this.score2 + 1) {
             return true;
         }
 
-        if((this.score2 === 3 && this.score1 !== 3) || this.score2 > 3 && this.score2 > this.score1 + 1) {
+        if(this.score2 > 3 && this.score2 > this.score1 + 1) {
             return true;
         }
 
