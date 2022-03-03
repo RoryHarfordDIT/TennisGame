@@ -4,4 +4,4 @@ Tennis Game works by adding scores in the main file to the gane with either the 
 
 To run the file use the command "node StoryFul-Tennis-Game/src/main.js"
 
-To run the test suite use the command "npm run test"
+To run the test suite use the command "npm install jest" and then "npm run test"
